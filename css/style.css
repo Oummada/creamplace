@@ -1,4 +1,20 @@
-h1 {
-  color: green; }
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+body {
+  margin: 0px;
+  padding: 0px; }
+
+nav {
+  font-family: "Roboto Condensed"; }
+
+nav li {
+  list-style-type: none; }
+
+.hero_section .top_bar {
+  text-align: center;
+  background-color: #323333;
+  padding: 14px;
+  font-family: "Roboto Condensed";
+  color: #e0dbdb; }
 
 /*# sourceMappingURL=style.css.map */
