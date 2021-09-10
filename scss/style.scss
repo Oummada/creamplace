@@ -11,6 +11,12 @@ nav {
   font-family: "Roboto Condensed";
   li {
     list-style-type: none;
+    display: inline;
+    font-size: 1rem;
+    text-transform: uppercase;
+    &:not(:last-child) {
+      padding: 10px 10px 10px 0px;
+    }
   }
 }
 .hero_section {
@@ -20,5 +26,18 @@ nav {
     padding: 14px;
     font-family: "Roboto Condensed";
     color: rgb(224, 219, 219);
+  }
+  .top_section {
+    padding: 0px 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      margin-right: 12.5rem;
+      width: 220px;
+      img {
+        width: inherit;
+      }
+    }
   }
 }

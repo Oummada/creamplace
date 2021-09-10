@@ -8,7 +8,13 @@ nav {
   font-family: "Roboto Condensed"; }
 
 nav li {
-  list-style-type: none; }
+  list-style-type: none;
+  display: inline;
+  font-size: 1rem;
+  text-transform: uppercase; }
+
+nav li:not(:last-child) {
+  padding: 10px 10px 10px 0px; }
 
 .hero_section .top_bar {
   text-align: center;
@@ -16,5 +22,24 @@ nav li {
   padding: 14px;
   font-family: "Roboto Condensed";
   color: #e0dbdb; }
+
+.hero_section .top_section {
+  padding: 0px 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.hero_section .top_section .logo {
+  margin-right: 12.5rem;
+  width: 220px; }
+
+.hero_section .top_section .logo img {
+  width: inherit; }
 
 /*# sourceMappingURL=style.css.map */
