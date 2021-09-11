@@ -12,15 +12,17 @@ nav {
 nav li {
   list-style-type: none;
   display: inline;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
+  color: #4b4848;
 }
 
 nav li:not(:last-child) {
-  padding: 10px 10px 10px 0px;
+  padding: 15px 15px 15px 0px;
 }
 
 .hero_section {
+  width: 100%;
   height: 100vh;
   background-image: url("../assets/images/background-with-festive-gingerbread-cookies-form-ice-cream-stick-covered-with-glaze-copy-space.jpg");
   background-repeat: no-repeat;
@@ -50,7 +52,7 @@ nav li:not(:last-child) {
 }
 
 .hero_section .top_section .logo {
-  margin-right: 10rem;
+  margin-right: 14rem;
   width: 6.3rem;
 }
 
@@ -109,13 +111,45 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 15vh;
 }
 
 .heading-primary--main {
-  font-size: 5rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2.6rem;
 }
 
 .heading-primary--sub {
-  font-size: 10rem;
+  font-size: 8rem;
+  letter-spacing: 1.7rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  width: 100px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Roboto condensed";
+  color: #ffffff;
+  border: 1px solid white;
+  text-transform: uppercase;
+  padding: 5px 1rem;
+  font-size: 2rem;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+}
+
+.btn:hover,
+.btn:link:hover,
+.btn:visited:hover {
+  background-color: #4b4848;
+  border: 1px solid #4b4848;
 }
 /*# sourceMappingURL=style.css.map */
