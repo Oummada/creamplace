@@ -110,4 +110,12 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.heading-primary--main {
+  font-size: 5rem;
+}
+
+.heading-primary--sub {
+  font-size: 10rem;
+}
 /*# sourceMappingURL=style.css.map */

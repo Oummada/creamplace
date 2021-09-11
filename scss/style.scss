@@ -78,15 +78,14 @@ a {
   font-family: "Fjalla One";
   text-transform: uppercase;
   color: white;
-  // width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // &--main {
-  //   display: block;
-  // }
-  // &--sub {
-  //   display: block;
-  // }
+  &--main {
+    font-size: 5rem;
+  }
+  &--sub {
+    font-size: 10rem;
+  }
 }
