@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 
 body {
+  // font-size: 10px;
   margin: 0px;
   padding: 0px;
 }
@@ -41,7 +42,7 @@ nav {
     align-items: center;
     .logo {
       margin-right: 10rem;
-      width: 96px;
+      width: 6.3rem;
       img {
         width: inherit;
       }
@@ -72,4 +73,20 @@ nav {
 }
 a {
   text-decoration: none;
+}
+.heading-primary {
+  font-family: "Fjalla One";
+  text-transform: uppercase;
+  color: white;
+  // width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // &--main {
+  //   display: block;
+  // }
+  // &--sub {
+  //   display: block;
+  // }
 }

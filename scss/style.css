@@ -51,7 +51,7 @@ nav li:not(:last-child) {
 
 .hero_section .top_section .logo {
   margin-right: 10rem;
-  width: 96px;
+  width: 6.3rem;
 }
 
 .hero_section .top_section .logo img {
@@ -90,5 +90,24 @@ nav li:not(:last-child) {
 
 a {
   text-decoration: none;
+}
+
+.heading-primary {
+  font-family: "Fjalla One";
+  text-transform: uppercase;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
