@@ -5,6 +5,14 @@ body {
   padding: 0px;
 }
 
+a,
+a:link,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 nav {
   font-family: "Roboto Condensed";
 }
@@ -88,10 +96,6 @@ nav li:not(:last-child) {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 50%;
-}
-
-a {
-  text-decoration: none;
 }
 
 .heading-primary {

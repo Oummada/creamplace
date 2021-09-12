@@ -2,11 +2,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 
 // colors
+$fullview: 100vh;
 $mainTextColor: rgb(75, 72, 72);
 body {
   // font-size: 10px;
   margin: 0px;
   padding: 0px;
+}
+a,
+a:link,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: inherit;
 }
 
 nav {
@@ -26,7 +34,7 @@ nav {
 }
 .hero_section {
   width: 100%;
-  height: 100vh;
+  height: $fullview;
   background-image: url("../assets/images/background-with-festive-gingerbread-cookies-form-ice-cream-stick-covered-with-glaze-copy-space.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,9 +82,7 @@ nav {
     }
   }
 }
-a {
-  text-decoration: none;
-}
+
 .heading-primary {
   font-family: "Fjalla One";
   text-transform: uppercase;
