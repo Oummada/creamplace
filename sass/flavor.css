@@ -1,9 +1,14 @@
+li {
+  list-style-type: none;
+}
+
 .hero_flavor {
   width: 100%;
   height: 65vh;
   background-color: #f8c2db;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 2rem;
 }
 
 .hero_flavor .top_bar {
@@ -90,11 +95,25 @@
 .heading-primary2--main {
   font-size: 3rem;
   letter-spacing: 0.2rem;
-  margin-bottom: 2.6rem;
+  margin-bottom: 1rem;
 }
 
 .heading-primary2--sub {
   font-size: 8rem;
   letter-spacing: 1.7rem;
+}
+
+.main_section_flavors {
+  border: 1px solid rebeccapurple;
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.heading_secondary {
+  font-family: "Roboto condensed";
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=flavor.css.map */
