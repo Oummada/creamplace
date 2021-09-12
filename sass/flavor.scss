@@ -106,8 +106,7 @@ li {
     padding: 0px 1rem 1rem 1rem;
     width: auto;
     overflow-wrap: break-word;
-
-    margin-bottom: 5rem;
+    margin-bottom: 3.5rem;
     &_title {
       font-family: "Roboto condensed";
       text-transform: uppercase;
@@ -128,6 +127,7 @@ li {
       text-transform: uppercase;
       font-size: 1.5rem;
       color: $mainTextColor;
+      font-weight: 800;
     }
   }
 }
@@ -143,4 +143,8 @@ li {
   width: 170px;
   height: 2px;
   background-color: $mainTextColor;
+}
+
+.icecream_flavors {
+  margin-bottom: 6rem;
 }
