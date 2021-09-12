@@ -91,17 +91,19 @@ li {
   font-size: 2.5rem;
   font-weight: 800;
   color: $mainTextColor;
+  //   border-bottom: 1px solid black;
 }
 .articles {
   width: auto;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+
   flex-wrap: wrap;
   padding: 0;
   .article {
     text-align: center;
-    margin: 0px 2rem 2rem 2rem;
+    padding: 0px 1rem 1rem 1rem;
     width: auto;
     overflow-wrap: break-word;
 
@@ -128,4 +130,17 @@ li {
       color: $mainTextColor;
     }
   }
+}
+
+.heading_hr {
+  border: none;
+  width: 140px;
+  height: 2px;
+  background-color: $mainTextColor;
+}
+.hr_tertiary {
+  border: none;
+  width: 170px;
+  height: 2px;
+  background-color: $mainTextColor;
 }
