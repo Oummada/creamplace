@@ -102,21 +102,21 @@ nav {
     background-color: #4b4848;
     border: 1px solid #4b4848; }
 
-#section1 {
+.main_sections {
   display: flex;
   align-items: center;
   text-align: center; }
-  #section1 .our_flavors {
+  .main_sections .our_flavors {
     color: #4b4848;
     text-transform: uppercase;
     font-family: "roboto condensed";
     padding: 10rem;
     letter-spacing: 4px; }
-    #section1 .our_flavors .heading_secondary {
+    .main_sections .our_flavors .heading_secondary {
       font-family: "Kaushan Script";
       font-size: 2.7rem;
       letter-spacing: 3px; }
-    #section1 .our_flavors .btn_section {
+    .main_sections .our_flavors .btn_section {
       display: inline-block;
       border: 2px solid #4b4848;
       padding: 10px 20px;
