@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 // colors
 $fullview: 100vh;
 $mainTextColor: rgb(75, 72, 72);
@@ -122,14 +122,39 @@ nav {
   }
 }
 
+#section1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  .our_flavors {
+    color: $mainTextColor;
+    text-transform: uppercase;
+    font-family: "roboto condensed";
+    padding: 10rem;
+    letter-spacing: 4px;
+    .heading_secondary {
+      font-family: "Kaushan Script";
+      font-size: 2.7rem;
+      letter-spacing: 3px;
+    }
+    .btn_section {
+      display: inline-block;
+      border: 2px solid $mainTextColor;
+      padding: 10px 20px;
+      margin-top: 1.2rem;
+    }
+  }
+}
+
 footer {
   background-color: black;
   font-family: "roboto condensed";
   .footer_content {
-    margin: 0 auto;
-    width: 50rem;
+    width: auto;
+
     color: white;
     display: flex;
+    justify-content: space-evenly;
     padding: 1.8rem;
   }
   .footer_info {
@@ -139,9 +164,7 @@ footer {
   .footer_info_section {
     width: 9rem;
     padding: 0px 1rem;
-
     text-transform: uppercase;
-    // font-size: 50px;
   }
   .headerfour {
     font-size: 1.4rem;

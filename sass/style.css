@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 body {
   margin: 0px;
   padding: 0px;
@@ -157,18 +158,51 @@ nav li:not(:last-child) {
   border: 1px solid #4b4848;
 }
 
+#section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#section1 .our_flavors {
+  color: #4b4848;
+  text-transform: uppercase;
+  font-family: "roboto condensed";
+  padding: 10rem;
+  letter-spacing: 4px;
+}
+
+#section1 .our_flavors .heading_secondary {
+  font-family: "Kaushan Script";
+  font-size: 2.7rem;
+  letter-spacing: 3px;
+}
+
+#section1 .our_flavors .btn_section {
+  display: inline-block;
+  border: 2px solid #4b4848;
+  padding: 10px 20px;
+  margin-top: 1.2rem;
+}
+
 footer {
   background-color: black;
   font-family: "roboto condensed";
 }
 
 footer .footer_content {
-  margin: 0 auto;
-  width: 50rem;
+  width: auto;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding: 1.8rem;
 }
 
