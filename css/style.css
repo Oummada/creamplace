@@ -102,8 +102,7 @@ nav {
     border: 1px solid #4b4848; }
 
 footer {
-  background-color: black;
-  width: auto; }
+  background-color: black; }
   footer .footer_content {
     margin: 0 auto;
     width: 50rem;
@@ -123,8 +122,33 @@ footer {
   footer .copyright {
     margin-left: 1rem; }
   footer .footer_contactsection {
+    margin-left: 4rem;
     font-family: "roboto condensed";
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    width: 20rem; }
+    footer .footer_contactsection input {
+      padding: 0;
+      width: inherit;
+      margin-bottom: 1rem;
+      border: 2px solid white;
+      height: 2rem;
+      outline: red;
+      background-color: black;
+      color: white;
+      padding-left: 15px; }
+      footer .footer_contactsection input::placeholder {
+        padding: 10px;
+        text-transform: uppercase;
+        font-weight: 600; }
+    footer .footer_contactsection .subscribe_btn {
+      border: 2.2px solid white;
+      display: block;
+      width: inherit;
+      text-align: center;
+      padding: 0.3rem 0px;
+      padding-right: 15px;
+      font-size: 2rem;
+      margin-bottom: 5rem; }
 
 html {
   margin: 0;
