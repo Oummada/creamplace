@@ -123,3 +123,37 @@ nav {
     border: 1px solid $mainTextColor;
   }
 }
+
+footer {
+  background-color: black;
+  width: auto;
+  .footer_content {
+    margin: 0 auto;
+    width: 50rem;
+    color: white;
+    display: flex;
+    padding: 1.8rem;
+  }
+  .footer_info {
+    display: flex;
+    margin-bottom: 5rem;
+  }
+  .footer_info_section {
+    width: 9rem;
+    padding: 0px 1rem;
+    font-family: "roboto condensed";
+    text-transform: uppercase;
+    // font-size: 50px;
+  }
+  .headerfour {
+    font-size: 1.4rem;
+  }
+  .copyright {
+    margin-left: 1rem;
+  }
+  .footer_contactsection {
+    font-family: "roboto condensed";
+    text-transform: uppercase;
+    padding: 1.8rem;
+  }
+}

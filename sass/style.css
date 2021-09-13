@@ -156,4 +156,47 @@ nav li:not(:last-child) {
   background-color: #4b4848;
   border: 1px solid #4b4848;
 }
+
+footer {
+  background-color: black;
+  width: auto;
+}
+
+footer .footer_content {
+  margin: 0 auto;
+  width: 50rem;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.8rem;
+}
+
+footer .footer_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+footer .footer_info_section {
+  width: 9rem;
+  padding: 0px 1rem;
+  font-family: "roboto condensed";
+  text-transform: uppercase;
+}
+
+footer .headerfour {
+  font-size: 1.4rem;
+}
+
+footer .copyright {
+  margin-left: 1rem;
+}
+
+footer .footer_contactsection {
+  font-family: "roboto condensed";
+  text-transform: uppercase;
+  padding: 1.8rem;
+}
 /*# sourceMappingURL=style.css.map */
