@@ -19,9 +19,12 @@ nav {
     display: inline;
     font-size: 1.1rem;
     text-transform: uppercase;
-    color: #4b4848; }
+    color: #4b4848;
+    transition: 0.3s ease-in-out; }
     nav li:not(:last-child) {
       padding: 40px 40px 40px 0px; }
+    nav li:hover {
+      color: white; }
 
 .hero_section {
   width: 100%;
@@ -63,7 +66,10 @@ nav {
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 50%; }
+        border-radius: 50%;
+        transition: 0.2s ease-in-out; }
+      .hero_section .top_section .socials .fab:hover {
+        transform: scale(1.2); }
 
 .heading-primary {
   font-family: "Fjalla One";
@@ -125,6 +131,9 @@ nav {
       border: 2px solid #4b4848;
       padding: 10px 20px;
       margin-top: 1.2rem; }
+      .main_sections .our_flavors .btn_section:hover {
+        color: white;
+        background-color: #4b4848; }
 
 #section5 {
   background-color: #a2d0fa; }
@@ -178,6 +187,8 @@ footer {
       padding-right: 15px;
       font-size: 2rem;
       margin-bottom: 2rem; }
+      footer .footer_contactsection .subscribe_btn:hover {
+        background-color: #4b4848; }
     footer .footer_contactsection .socials {
       display: flex; }
     footer .footer_contactsection .socials .fab {
@@ -191,7 +202,10 @@ footer {
       border-radius: 50%;
       margin-right: 13px;
       font-size: 1rem;
-      padding: 5px; }
+      padding: 5px;
+      transition: 0.2s ease-in-out; }
+      footer .footer_contactsection .socials .fab:hover {
+        transform: scale(1.2); }
 
 .white {
   color: white;
@@ -245,7 +259,10 @@ li {
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 50%; }
+        border-radius: 50%;
+        transition: 0.2s ease-in-out; }
+      .hero_flavor .top_section .socials .fab:hover {
+        transform: scale(1.2); }
 
 .heading-primary2 {
   font-family: "Fjalla One";
@@ -363,7 +380,10 @@ li {
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 50%; }
+        border-radius: 50%;
+        transition: 0.2s ease-in-out; }
+      .hero_about .top_section .socials .fab:hover {
+        transform: scale(1.2); }
 
 .abouts1 {
   text-align: center;
@@ -375,7 +395,8 @@ li {
     font-family: "roboto condensed";
     margin: 0;
     padding: 0;
-    font-size: 1.8rem; }
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem; }
   .abouts1 h3 {
     font-family: "Kaushan Script";
     margin-top: 0px;
@@ -386,3 +407,9 @@ li {
     padding: 0px 6rem;
     letter-spacing: 2px;
     font-size: 0.8rem; }
+
+#sectionabout1 {
+  margin-bottom: 5rem; }
+
+#sectionabout2 {
+  margin-bottom: 5rem; }

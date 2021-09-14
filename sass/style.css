@@ -24,10 +24,16 @@ nav li {
   font-size: 1.1rem;
   text-transform: uppercase;
   color: #4b4848;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 nav li:not(:last-child) {
   padding: 40px 40px 40px 0px;
+}
+
+nav li:hover {
+  color: white;
 }
 
 .hero_section {
@@ -97,6 +103,13 @@ nav li:not(:last-child) {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 50%;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.hero_section .top_section .socials .fab:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .heading-primary {
@@ -195,6 +208,11 @@ nav li:not(:last-child) {
   border: 2px solid #4b4848;
   padding: 10px 20px;
   margin-top: 1.2rem;
+}
+
+.main_sections .our_flavors .btn_section:hover {
+  color: white;
+  background-color: #4b4848;
 }
 
 #section5 {
@@ -296,6 +314,10 @@ footer .footer_contactsection .subscribe_btn {
   margin-bottom: 2rem;
 }
 
+footer .footer_contactsection .subscribe_btn:hover {
+  background-color: #4b4848;
+}
+
 footer .footer_contactsection .socials {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -320,6 +342,13 @@ footer .footer_contactsection .socials .fab {
   margin-right: 13px;
   font-size: 1rem;
   padding: 5px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+footer .footer_contactsection .socials .fab:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .white {

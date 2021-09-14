@@ -197,6 +197,11 @@ nav li:not(:last-child) {
   margin-top: 1.2rem;
 }
 
+.main_sections .our_flavors .btn_section:hover {
+  color: white;
+  background-color: #4b4848;
+}
+
 #section5 {
   background-color: #a2d0fa;
 }
@@ -296,6 +301,10 @@ footer .footer_contactsection .subscribe_btn {
   margin-bottom: 2rem;
 }
 
+footer .footer_contactsection .subscribe_btn:hover {
+  background-color: #4b4848;
+}
+
 footer .footer_contactsection .socials {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -382,28 +391,9 @@ li {
   display: flex;
 }
 
-.hero_flavor .top_section .socials .fab,
-.hero_flavor .top_section .socials .fab:visited,
-.hero_flavor .top_section .socials .fav:active,
-.hero_flavor .top_section .socials .fab:link {
-  margin: 5px;
-  text-decoration: none;
-  padding: 0.5em;
-  background-color: black;
-  color: #b1acac;
-  font-size: 1.1rem;
-  height: 20px;
-  width: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 50%;
+.hero_flavor .top_section .socials .fab:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 
 .heading-primary2 {
@@ -596,7 +586,8 @@ li {
   font-family: "roboto condensed";
   margin: 0;
   padding: 0;
-  font-size: 1.8rem;
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .abouts1 h3 {
@@ -611,5 +602,13 @@ li {
   padding: 0px 6rem;
   letter-spacing: 2px;
   font-size: 0.8rem;
+}
+
+#sectionabout1 {
+  margin-bottom: 5rem;
+}
+
+#sectionabout2 {
+  margin-bottom: 5rem;
 }
 /*# sourceMappingURL=main.css.map */

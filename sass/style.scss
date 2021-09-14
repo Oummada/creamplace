@@ -19,16 +19,19 @@ a:hover {
 
 nav {
   font-family: "Roboto Condensed";
-  .nav_list {
-  }
+
   li {
     list-style-type: none;
     display: inline;
     font-size: 1.1rem;
     text-transform: uppercase;
     color: $mainTextColor;
+    transition: 0.3s ease-in-out;
     &:not(:last-child) {
       padding: 40px 40px 40px 0px;
+    }
+    &:hover {
+      color: white;
     }
   }
 }
@@ -76,6 +79,10 @@ nav {
         justify-content: center;
         align-items: center;
         border-radius: 50%;
+        transition: 0.2s ease-in-out;
+      }
+      .fab:hover {
+        transform: scale(1.2);
       }
     }
   }
@@ -149,6 +156,10 @@ nav {
       border: 2px solid $mainTextColor;
       padding: 10px 20px;
       margin-top: 1.2rem;
+      &:hover {
+        color: white;
+        background-color: $mainTextColor;
+      }
     }
   }
 }
@@ -216,6 +227,9 @@ footer {
       padding-right: 15px;
       font-size: 2rem;
       margin-bottom: 2rem;
+      &:hover {
+        background-color: $mainTextColor;
+      }
     }
     .socials {
       display: flex;
@@ -232,6 +246,10 @@ footer {
       margin-right: 13px;
       font-size: 1rem;
       padding: 5px;
+      transition: 0.2s ease-in-out;
+      &:hover {
+        transform: scale(1.2);
+      }
     }
   }
 }

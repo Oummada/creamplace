@@ -53,6 +53,10 @@ li {
         justify-content: center;
         align-items: center;
         border-radius: 50%;
+        transition: 0.2s ease-in-out;
+      }
+      .fab:hover {
+        transform: scale(1.2);
       }
     }
   }
