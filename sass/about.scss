@@ -4,7 +4,7 @@
   background-color: #fdaf65;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
   .top_bar {
     text-align: center;
     background-color: #323333;
@@ -47,5 +47,31 @@
         border-radius: 50%;
       }
     }
+  }
+}
+.abouts1 {
+  text-align: center;
+  width: 50rem;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: $mainTextColor;
+
+  h2 {
+    font-family: "roboto condensed";
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-family: "Kaushan Script";
+    margin-top: 0px;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  p {
+    font-family: "roboto condensed";
+    padding: 0px 6rem;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
   }
 }
