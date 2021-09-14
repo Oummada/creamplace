@@ -27,7 +27,7 @@ nav li {
 }
 
 nav li:not(:last-child) {
-  padding: 15px 15px 15px 0px;
+  padding: 40px 40px 40px 0px;
 }
 
 .hero_section {
@@ -61,7 +61,7 @@ nav li:not(:last-child) {
 }
 
 .hero_section .top_section .logo {
-  margin-right: 14rem;
+  margin-right: 9rem;
   width: 6.3rem;
 }
 
@@ -320,5 +320,10 @@ footer .footer_contactsection .socials .fab {
   margin-right: 13px;
   font-size: 1rem;
   padding: 5px;
+}
+
+.white {
+  color: white;
+  text-shadow: 4px 4px 14px rgba(0, 0, 0, 0.75);
 }
 /*# sourceMappingURL=style.css.map */
