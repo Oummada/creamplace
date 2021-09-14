@@ -40,7 +40,7 @@ nav {
   }
 }
 .hero_section {
-  min-width: 20rem;
+  min-width: 12rem;
   width: 100%;
   height: $fullview;
   background-image: url("../assets/images/background-with-festive-gingerbread-cookies-form-ice-cream-stick-covered-with-glaze-copy-space.jpg");
@@ -94,6 +94,7 @@ nav {
 }
 
 .heading-primary {
+  min-width: 10rem;
   font-family: "Fjalla One";
   text-transform: uppercase;
   color: white;
@@ -102,7 +103,8 @@ nav {
   justify-content: center;
   align-items: center;
   margin-top: 15vh;
-  min-width: 10rem;
+  width: auto;
+  // min-width: 2rem;
   text-align: center;
   &--main {
     font-size: 1.8rem;
@@ -139,14 +141,21 @@ nav {
   display: flex;
   align-items: center;
   text-align: center;
+  justify-items: center;
+  // justify-content: space-evenly;
   margin-bottom: 0px;
+  flex-wrap: wrap;
+
   img {
     width: 50%;
+    min-width: 26.5rem;
   }
   .section_paragraph {
-    padding: 0px 10rem;
+    text-align: center;
   }
   .our_flavors {
+    min-width: 26.5rem;
+    width: 50%;
     color: $mainTextColor;
     text-transform: uppercase;
     font-family: "roboto condensed";
@@ -174,6 +183,7 @@ nav {
   background-color: rgb(162, 208, 250);
   img {
     width: 100%;
+    min-width: 18rem;
   }
 }
 
@@ -250,9 +260,7 @@ footer {
       justify-content: center;
       align-items: center;
       border-radius: 50%;
-
       margin-right: 13px;
-
       font-size: 1rem;
       padding: 5px;
       transition: 0.2s ease-in-out;
