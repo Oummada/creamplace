@@ -105,12 +105,16 @@ nav {
 .main_sections {
   display: flex;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0px; }
+  .main_sections img {
+    width: 50%; }
+  .main_sections .section_paragraph {
+    padding: 0px 10rem; }
   .main_sections .our_flavors {
     color: #4b4848;
     text-transform: uppercase;
     font-family: "roboto condensed";
-    padding: 10rem;
     letter-spacing: 4px; }
     .main_sections .our_flavors .heading_secondary {
       font-family: "Kaushan Script";
@@ -121,6 +125,11 @@ nav {
       border: 2px solid #4b4848;
       padding: 10px 20px;
       margin-top: 1.2rem; }
+
+#section5 {
+  background-color: #a2d0fa; }
+  #section5 img {
+    width: 100%; }
 
 footer {
   background-color: black;
