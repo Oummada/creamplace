@@ -231,16 +231,11 @@ nav li:hover {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
   background-color: black;
   font-family: "roboto condensed";
 }
 
 footer .footer_content {
-  max-width: 30rem;
   margin: 0 auto;
   color: white;
   display: -webkit-box;
@@ -249,6 +244,8 @@ footer .footer_content {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 1.8rem;
 }
 
@@ -274,13 +271,12 @@ footer .copyright {
 
 footer .footer_contactsection {
   width: 30rem;
-  margin-left: 4rem;
+  max-width: 80rem;
   text-transform: uppercase;
 }
 
 footer .footer_contactsection input {
-  padding: 0;
-  width: inherit;
+  width: 100%;
   margin-bottom: 1rem;
   border: 2px solid white;
   height: 2rem;
@@ -317,7 +313,7 @@ footer .footer_contactsection input::placeholder {
 footer .footer_contactsection .subscribe_btn {
   border: 2.2px solid white;
   display: block;
-  width: inherit;
+  width: 100%;
   text-align: center;
   padding: 0.3rem 0px;
   padding-right: 15px;

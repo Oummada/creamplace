@@ -178,18 +178,17 @@ nav {
 }
 
 footer {
-  display: flex;
-  width: 100%;
+  // display: flex;
+
   background-color: black;
   font-family: "roboto condensed";
   .footer_content {
-    max-width: 30rem;
-    // width: 80rem;
+    // max-width: 100rem;
     margin: 0 auto;
-    // text-align: center;
     color: white;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 1.8rem;
   }
   .footer_info {
@@ -208,12 +207,11 @@ footer {
   }
   .footer_contactsection {
     width: 30rem;
-    margin-left: 4rem;
+    max-width: 80rem;
     text-transform: uppercase;
 
     input {
-      padding: 0;
-      width: inherit;
+      width: 100%;
       margin-bottom: 1rem;
       border: 2px solid white;
       height: 2rem;
@@ -230,7 +228,7 @@ footer {
     .subscribe_btn {
       border: 2.2px solid white;
       display: block;
-      width: inherit;
+      width: 100%;
       text-align: center;
       padding: 0.3rem 0px;
       padding-right: 15px;
