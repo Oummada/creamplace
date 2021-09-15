@@ -5,8 +5,7 @@
 $fullview: 100vh;
 $mainTextColor: rgb(75, 72, 72);
 body {
-  // width: min(90%, 90rem);
-  // font-size: 10px;
+  min-width: 26.5rem;
   margin: 0px;
   padding: 0px;
 }
@@ -18,29 +17,8 @@ a:hover {
   color: inherit;
 }
 
-nav {
-  font-family: "Roboto Condensed";
-  ul {
-    padding: 0px;
-    margin: 0px;
-  }
-  li {
-    list-style-type: none;
-    display: inline-block;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    color: $mainTextColor;
-    transition: 0.3s ease-in-out;
-    &:not(:last-child) {
-      padding-right: 39px;
-    }
-    &:hover {
-      color: white;
-    }
-  }
-}
 .hero_section {
-  min-width: 12rem;
+  min-width: 26.5rem;
   width: 100%;
   height: $fullview;
   background-image: url("../assets/images/background-with-festive-gingerbread-cookies-form-ice-cream-stick-covered-with-glaze-copy-space.jpg");
@@ -60,7 +38,6 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     .logo {
-      // margin-right: 9rem;
       width: 6.3rem;
       img {
         width: inherit;
@@ -94,7 +71,6 @@ nav {
 }
 
 .heading-primary {
-  min-width: 10rem;
   font-family: "Fjalla One";
   text-transform: uppercase;
   color: white;
@@ -103,16 +79,16 @@ nav {
   justify-content: center;
   align-items: center;
   margin-top: 15vh;
-  width: auto;
-  // min-width: 2rem;
+  // width: auto;
   text-align: center;
   &--main {
-    font-size: 1.8rem;
-    letter-spacing: 0.2rem;
+    // font-size: 1.8rem;
+    // letter-spacing: 0.2rem;
     margin-bottom: 2.6rem;
   }
   &--sub {
-    font-size: 8rem;
+    // font-size: min(4rem);
+    // font-size: 8rem;
     letter-spacing: 1.7rem;
   }
 }
@@ -142,7 +118,7 @@ nav {
   align-items: center;
   text-align: center;
   justify-items: center;
-  // justify-content: space-evenly;
+  min-width: 26.5rem;
   margin-bottom: 0px;
   flex-wrap: wrap;
 
@@ -154,13 +130,14 @@ nav {
     text-align: center;
   }
   .our_flavors {
+    margin: 0 auto;
+    width: 20rem;
     min-width: 26.5rem;
-    width: 50%;
-    color: $mainTextColor;
+    color: #4b4848;
     text-transform: uppercase;
     font-family: "roboto condensed";
-    // padding: 10rem;
     letter-spacing: 4px;
+
     .heading_secondary {
       font-family: "Kaushan Script";
       font-size: 2.7rem;
@@ -183,13 +160,12 @@ nav {
   background-color: rgb(162, 208, 250);
   img {
     width: 100%;
-    min-width: 18rem;
+    min-width: 26.5rem;
   }
 }
 
 footer {
-  // display: flex;
-
+  min-width: 26.5rem;
   background-color: black;
   font-family: "roboto condensed";
   .footer_content {
@@ -274,4 +250,71 @@ footer {
 .white {
   color: white;
   text-shadow: 4px 4px 14px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 425px) {
+  nav {
+    font-family: "Roboto Condensed";
+    ul {
+      padding: 0px;
+      margin: 0px;
+    }
+    li {
+      list-style-type: none;
+      display: block;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      color: $mainTextColor;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  .heading-primary--main {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2.6rem;
+  }
+  .heading-primary--sub {
+    margin: 0 auto;
+    font-size: 6rem;
+    letter-spacing: 1.6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .heading-primary--main {
+    text-align: center;
+    font-size: 4.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2.6rem;
+  }
+  .heading-primary--sub {
+    margin: 0 auto;
+    font-size: 12rem;
+    letter-spacing: 1.6rem;
+  }
+  nav {
+    font-family: "Roboto Condensed";
+    ul {
+      padding: 0px;
+      margin: 0px;
+    }
+    li {
+      list-style-type: none;
+      display: inline-block;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      color: $mainTextColor;
+      transition: 0.3s ease-in-out;
+      &:not(:last-child) {
+        padding-right: 39px;
+      }
+      &:hover {
+        color: white;
+      }
+    }
+  }
 }

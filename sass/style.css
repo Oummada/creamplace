@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 body {
+  min-width: 26.5rem;
   margin: 0px;
   padding: 0px;
 }
@@ -14,35 +15,8 @@ a:hover {
   color: inherit;
 }
 
-nav {
-  font-family: "Roboto Condensed";
-}
-
-nav ul {
-  padding: 0px;
-  margin: 0px;
-}
-
-nav li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  color: #4b4848;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-
-nav li:not(:last-child) {
-  padding-right: 39px;
-}
-
-nav li:hover {
-  color: white;
-}
-
 .hero_section {
-  min-width: 12rem;
+  min-width: 26.5rem;
   width: 100%;
   height: 100vh;
   background-image: url("../assets/images/background-with-festive-gingerbread-cookies-form-ice-cream-stick-covered-with-glaze-copy-space.jpg");
@@ -118,7 +92,6 @@ nav li:hover {
 }
 
 .heading-primary {
-  min-width: 10rem;
   font-family: "Fjalla One";
   text-transform: uppercase;
   color: white;
@@ -136,18 +109,14 @@ nav li:hover {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 15vh;
-  width: auto;
   text-align: center;
 }
 
 .heading-primary--main {
-  font-size: 1.8rem;
-  letter-spacing: 0.2rem;
   margin-bottom: 2.6rem;
 }
 
 .heading-primary--sub {
-  font-size: 8rem;
   letter-spacing: 1.7rem;
 }
 
@@ -188,6 +157,7 @@ nav li:hover {
           align-items: center;
   text-align: center;
   justify-items: center;
+  min-width: 26.5rem;
   margin-bottom: 0px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -203,8 +173,9 @@ nav li:hover {
 }
 
 .main_sections .our_flavors {
+  margin: 0 auto;
+  width: 20rem;
   min-width: 26.5rem;
-  width: 50%;
   color: #4b4848;
   text-transform: uppercase;
   font-family: "roboto condensed";
@@ -235,10 +206,11 @@ nav li:hover {
 
 #section5 img {
   width: 100%;
-  min-width: 18rem;
+  min-width: 26.5rem;
 }
 
 footer {
+  min-width: 26.5rem;
   background-color: black;
   font-family: "roboto condensed";
 }
@@ -369,5 +341,74 @@ footer .footer_contactsection .socials .fab:hover {
 .white {
   color: white;
   text-shadow: 4px 4px 14px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 425px) {
+  nav {
+    font-family: "Roboto Condensed";
+  }
+  nav ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  nav li {
+    list-style-type: none;
+    display: block;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #4b4848;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  nav li:hover {
+    color: white;
+  }
+  .heading-primary--main {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2.6rem;
+  }
+  .heading-primary--sub {
+    margin: 0 auto;
+    font-size: 6rem;
+    letter-spacing: 1.6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .heading-primary--main {
+    text-align: center;
+    font-size: 4.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2.6rem;
+  }
+  .heading-primary--sub {
+    margin: 0 auto;
+    font-size: 12rem;
+    letter-spacing: 1.6rem;
+  }
+  nav {
+    font-family: "Roboto Condensed";
+  }
+  nav ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  nav li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #4b4848;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  nav li:not(:last-child) {
+    padding-right: 39px;
+  }
+  nav li:hover {
+    color: white;
+  }
 }
 /*# sourceMappingURL=style.css.map */
